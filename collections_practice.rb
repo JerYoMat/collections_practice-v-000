@@ -55,6 +55,7 @@ def add_s(array)
     new_element = element << "s" unless i == 1
     new_array << new_element
   end 
+  new_array
 end 
 
 
