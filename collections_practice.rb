@@ -27,8 +27,12 @@ def reverse_array(array)
   array.reverse 
 end 
 
-def kesha_maker(array)
-array.each do |word|
-  word.
+def kesha_maker(string_array)
+  new_array = []
+  array.each do |string|
+    string[2] = "$"
+    new_array << string 
+  end 
+ new_array
 end 
 
