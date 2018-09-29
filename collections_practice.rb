@@ -52,7 +52,7 @@ end
 def add_s(array)
   new_array = []
   array.each_with_index do |element, i|
-    if element << "s" unless i == 1
+     i != 1 ? new_element = element << "s" : new_element = element 
     new_array << new_element
   end 
   new_array
