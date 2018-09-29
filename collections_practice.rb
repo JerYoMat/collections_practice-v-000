@@ -50,8 +50,10 @@ def sum_array(array)
 end 
 
 def add_s(array)
+  new_array = []
   array.each_with_index do |element, i|
-    element << "s" unless i == 1 
+    new_element = element << "s" unless i == 1
+    new_array << new_element
   end 
 end 
 
