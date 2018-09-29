@@ -49,4 +49,10 @@ def sum_array(array)
   end 
 end 
 
+def add_s(array)
+  array.each_with_index do |element, i|
+    element << "s" unless i == 1 
+  end 
+end 
+
 
